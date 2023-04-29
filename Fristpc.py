@@ -22,7 +22,6 @@ for j in hero_list_resp.json():
 
     names = [name[0:name.index('&')] for name in names.split('|')]
 
-
 # 爬取图片
     for i,n in enumerate(names):
         url = f'https://game.gtimg.cn/images/yxzj/img201606/skin/hero-info/{enanme}/{enanme}-bigskin-{i+1}.jpg'
